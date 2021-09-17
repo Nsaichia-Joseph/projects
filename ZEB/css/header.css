@@ -1,0 +1,29 @@
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  color: white;
+}
+
+/* Middle column */
+.column.middle {
+  width: 75%;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  background-image: url(65.jpg) ; 
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: screen;
+}
